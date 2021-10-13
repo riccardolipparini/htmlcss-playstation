@@ -12,6 +12,7 @@
 [class*="col"] */
 
 
+/* logo */
 .container-fluid.due{
     height: 400px;
 }
@@ -25,10 +26,40 @@
 .row img{
     max-width: 200px;
 }
+/* end logo */
 
 
 
+/* navbar */
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+nav i{
+    font-size: 30px;
+    color: rgba(0,112,209,255);
+}
+.nav-item.dropdown.mrgn{
+    margin-right: 600px;
+}
+.btn.btn-dark{
+    border-radius: 30px;
+    margin-right: 20px;
+}
+/* end navbar */
 
+
+
+/* jambo */
+.container-fluid.due{
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+#jambo img{
+    max-width: 100%;
+}
 
 
 
