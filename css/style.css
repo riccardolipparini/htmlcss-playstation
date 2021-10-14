@@ -23,7 +23,7 @@
     justify-content: flex-end;
     padding: 10px 10px 10px 0;
 }
-.row img{
+header .row img{
     max-width: 200px;
 }
 /* end logo */
@@ -51,7 +51,7 @@ nav i{
 
 /* jambo */
 .container-fluid.due{
-    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -69,7 +69,19 @@ nav i{
 #jambotext h1,p{
     color: white;
 }
-
-
+.container.jambo{
+    margin-top: 30px;
+}
+.container.jambo .col{
+    padding: 10px 10px;
+    border-radius: 40px;
+}
+.container.jambo .row img{
+    max-width: 200px;
+    border-radius: 20px;
+}
+.img-thumbnail{
+    border: 2px solid blue;
+}
 
 
