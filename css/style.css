@@ -5,11 +5,7 @@
 }
 
 /* debug */
-
-/* [class*="col-"]
     
-
-[class*="col"] */
 
 
 /* logo */
@@ -66,7 +62,10 @@ nav i{
 #jambotext{
     margin-left: 30px;
 }
-#jambotext h1,p{
+#jambotext h1{
+    color: white;
+}
+#jambotext p{
     color: white;
 }
 .container.jambo{
@@ -83,5 +82,36 @@ nav i{
 .img-thumbnail{
     border: 2px solid blue;
 }
+/* end jambo */
+
+/* main */
+main .container.nolimits{
+    text-align: center;
+    margin-top: 60px;
+}
+main .container.nolimits h4{
+    color: blue;
+}
+main .container.nolimits p{
+    color: grey;
+}
+.container.console{
+    margin-top: 200px;
+}
+.col.maggioriinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn.btn-primary{
+    border-radius: 20px;
+}
+.container.console p{
+    color: grey;
+}
+.container.console img{
+    max-width: 100%
+}
+
 
 
